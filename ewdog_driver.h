@@ -24,10 +24,10 @@
  */
 typedef enum
 {
-    EWD_ENABLED         = 0x00U,
-    EWD_DISABLED        = 0x01U,
-    EWD_STATUS_SUCCESS  = 0x10U,
-    EWD_STATUS_ERROR    = 0x11U
+    EWD_ENABLED         = 0U,       /**< External watchdog enabled */
+    EWD_DISABLED        = 1U,       /**< External watchdog disabled */
+    EWD_STATUS_SUCCESS  = 2U,       /**< External watchdog config success */
+    EWD_STATUS_ERROR    = 3U        /**< External watchdog config error */
 }ewd_status_t;
 
 /*!
@@ -36,10 +36,9 @@ typedef enum
  * This function configures the external watchdog to the
  * correct board pins
  * 
- * @param[out] the success 1 or failure 0 of the configuration
  */
 
-ewd_status_t EWD_Config(void);
+void EWD_Config(void);
 
 /*!
  * @brief Enable the external watchdog
