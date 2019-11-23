@@ -86,7 +86,7 @@ ewd_status_t EWD_Is_Enabled(void)
  * @brief Starts the pulses to periodically reset the 
  * external watchdog
  *
- * This function starts the PWM to periodically reset 
+ * This function starts the PWM to periodically resets
  * the external watchdog
  * 
  */
@@ -100,7 +100,7 @@ void EWD_Start(void)
  * @brief Stops the pulses that periodically reset the 
  * external watchdog
  *
- * This function stops the PWM that periodically reset 
+ * This function stops the PWM that periodically resets 
  * the external watchdog
  * 
  */
