@@ -2,6 +2,22 @@
 #define EWDOG_DRIVER_H
 
 /*!
+ * @file ewdog_driver.h
+ * @brief External Watchdog Peripheral Access Layer
+ *
+ */
+
+/* ----------------------------------------------------------------------------
+   -- External Watchdog Peripheral Access Layer
+   ---------------------------------------------------------------------------- */
+
+/*!
+ * @addtogroup External_Watchdog External Watchdog Peripheral Access Layer
+ * @{
+ */
+
+
+/*!
  * @brief Enumeration of the possible external watchdog status
  *
  * Implements : ewd_status_t
@@ -72,6 +88,11 @@ void EWD_Start(void);
  * 
  */
 void EWD_Stop(void);
+
+
+/*!
+ * @}
+ */ /* end of group External_Watchdog */
 
 
 
