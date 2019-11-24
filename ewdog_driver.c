@@ -27,6 +27,7 @@ void EWD_Config(void)
     directions |= (1UL << ENABLE_PIN);
     ENABLE_GPIO_PORT->PDDR = directions;
     /* Configure pwm pin */
+    reg = (uint32_t) 0;
     reg = PWM_PORT->PCR[PWM_PIN];
     reg &= ~(PORT_PCR_MUX_MASK);
     reg |= PORT_PCR_MUX(2U);

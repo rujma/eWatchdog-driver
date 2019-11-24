@@ -405,5 +405,7 @@ var searchData=
   ['pte_6988',['PTE',['../group___g_p_i_o___peripheral___access___layer.html#ga074482d761e5bcd022a14aa7b8c294d7',1,'S32K116.h']]],
   ['pte_5fbase_6989',['PTE_BASE',['../group___g_p_i_o___peripheral___access___layer.html#gaac65442c7407ccb219eea68a45c2bdc6',1,'S32K116.h']]],
   ['ptor_6990',['PTOR',['../struct_g_p_i_o___type.html#aec9404442ba35916e2a747d2d0bf73de',1,'GPIO_Type']]],
-  ['pwmload_6991',['PWMLOAD',['../struct_f_t_m___type.html#a28478e01da54c088007371f44451b2d7',1,'FTM_Type']]]
+  ['pwm_5fpin_6991',['PWM_PIN',['../ewdog__driver_8c.html#af5a48adc9d939102a42f2829b7a1b8ac',1,'ewdog_driver.c']]],
+  ['pwm_5fport_6992',['PWM_PORT',['../ewdog__driver_8c.html#adba65af49b5bab952693d914ec888b7b',1,'ewdog_driver.c']]],
+  ['pwmload_6993',['PWMLOAD',['../struct_f_t_m___type.html#a28478e01da54c088007371f44451b2d7',1,'FTM_Type']]]
 ];

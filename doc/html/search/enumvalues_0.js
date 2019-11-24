@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['ewd_5fdisabled_28',['EWD_DISABLED',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a1c434557201ac20dc7f018a3efbb73ae',1,'ewdog_driver.h']]],
-  ['ewd_5fenabled_29',['EWD_ENABLED',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a45405201efeb18a0a7b863eba5745ccb',1,'ewdog_driver.h']]],
-  ['ewd_5fstatus_5ferror_30',['EWD_STATUS_ERROR',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a1ee5a3c42a23c2752b504de0fd32ecb3',1,'ewdog_driver.h']]],
-  ['ewd_5fstatus_5fsuccess_31',['EWD_STATUS_SUCCESS',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a08a72294c7f81ebc469875565e05eb5b',1,'ewdog_driver.h']]]
+  ['adc0_5fclk_9144',['ADC0_CLK',['../_s32_k116__features_8h.html#a64124f27cd745ac7c837469f9391f728ac45712770baf5006c023e481cb1e7cb8',1,'S32K116_features.h']]],
+  ['adc0_5firqn_9145',['ADC0_IRQn',['../group___interrupt__vector__numbers___s32_k116.html#gga7e1129cd8a196f4284d41db3e82ad5c8a08b6c660bfe015ac0842ca95510420eb',1,'S32K116.h']]]
 ];

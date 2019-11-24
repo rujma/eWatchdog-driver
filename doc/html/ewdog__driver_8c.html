@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ewatchdog: ewdog_driver.c File Reference</title>
+<title>External Watchdog Driver for SAS: ewdog_driver.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ewatchdog
+   <div id="projectname">External Watchdog Driver for SAS
    </div>
   </td>
  </tr>
@@ -68,20 +68,38 @@ $(function() {
 <div class="title">ewdog_driver.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;common/device_registers.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="device__registers_8h_source.html">common/device_registers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ewdog__driver_8h_source.html">ewdog_driver.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for ewdog_driver.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="ewdog__driver_8c__incl.png" border="0" usemap="#ewdog__driver_8c" alt=""/></div>
+<map name="ewdog__driver_8c" id="ewdog__driver_8c">
+<area shape="rect" title=" " alt="" coords="429,5,535,32"/>
+<area shape="rect" href="device__registers_8h.html" title=" " alt="" coords="308,80,488,107"/>
+<area shape="rect" href="ewdog__driver_8h.html" title="External Watchdog Peripheral Access Layer." alt="" coords="513,80,619,107"/>
+<area shape="rect" href="s32__core__cm0_8h.html" title=" " alt="" coords="5,155,124,181"/>
+<area shape="rect" href="_s32_k116_8h.html" title="Peripheral Access Layer for S32K116." alt="" coords="424,155,511,181"/>
+<area shape="rect" href="_s32_k116__features_8h.html" title="Chip specific module features." alt="" coords="261,155,399,181"/>
+<area shape="rect" href="devassert_8h.html" title=" " alt="" coords="629,155,717,181"/>
+<area shape="rect" href="status_8h.html" title=" " alt="" coords="535,155,605,181"/>
+<area shape="rect" href="callbacks_8h.html" title=" " alt="" coords="149,155,237,181"/>
+<area shape="rect" title=" " alt="" coords="297,229,363,256"/>
+<area shape="rect" title=" " alt="" coords="635,229,710,256"/>
+</map>
+</div>
 </div>
 <p><a href="ewdog__driver_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0a987a407f7252609f2fe5f92d6eff03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#a0a987a407f7252609f2fe5f92d6eff03">ENABLE_PORT</a>&#160;&#160;&#160;PORTC</td></tr>
+<tr class="memitem:a0a987a407f7252609f2fe5f92d6eff03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#a0a987a407f7252609f2fe5f92d6eff03">ENABLE_PORT</a>&#160;&#160;&#160;<a class="el" href="group___p_o_r_t___peripheral___access___layer.html#ga68fea88642279a70246e026e7221b0a5">PORTC</a></td></tr>
 <tr class="separator:a0a987a407f7252609f2fe5f92d6eff03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1831891ca53cfd1e047727250040955a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#a1831891ca53cfd1e047727250040955a">ENABLE_GPIO_PORT</a>&#160;&#160;&#160;PTC</td></tr>
+<tr class="memitem:a1831891ca53cfd1e047727250040955a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#a1831891ca53cfd1e047727250040955a">ENABLE_GPIO_PORT</a>&#160;&#160;&#160;<a class="el" href="group___g_p_i_o___peripheral___access___layer.html#ga7deefa3e1c7e45e4ccb31a8117bc181f">PTC</a></td></tr>
 <tr class="separator:a1831891ca53cfd1e047727250040955a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a1062ffa0437eb43db9f95d82f77ec0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#a5a1062ffa0437eb43db9f95d82f77ec0">ENABLE_PIN</a>&#160;&#160;&#160;8U</td></tr>
 <tr class="separator:a5a1062ffa0437eb43db9f95d82f77ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adba65af49b5bab952693d914ec888b7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#adba65af49b5bab952693d914ec888b7b">PWM_PORT</a>&#160;&#160;&#160;PORTB</td></tr>
+<tr class="memitem:adba65af49b5bab952693d914ec888b7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#adba65af49b5bab952693d914ec888b7b">PWM_PORT</a>&#160;&#160;&#160;<a class="el" href="group___p_o_r_t___peripheral___access___layer.html#ga09a0c85cd3da09d9cdf63a5ac4c39f77">PORTB</a></td></tr>
 <tr class="separator:adba65af49b5bab952693d914ec888b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a48adc9d939102a42f2829b7a1b8ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ewdog__driver_8c.html#af5a48adc9d939102a42f2829b7a1b8ac">PWM_PIN</a>&#160;&#160;&#160;6U</td></tr>
 <tr class="separator:af5a48adc9d939102a42f2829b7a1b8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,7 +133,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ENABLE_GPIO_PORT&#160;&#160;&#160;PTC</td>
+          <td class="memname">#define ENABLE_GPIO_PORT&#160;&#160;&#160;<a class="el" href="group___g_p_i_o___peripheral___access___layer.html#ga7deefa3e1c7e45e4ccb31a8117bc181f">PTC</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -147,7 +165,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ENABLE_PORT&#160;&#160;&#160;PORTC</td>
+          <td class="memname">#define ENABLE_PORT&#160;&#160;&#160;<a class="el" href="group___p_o_r_t___peripheral___access___layer.html#ga68fea88642279a70246e026e7221b0a5">PORTC</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -179,7 +197,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PWM_PORT&#160;&#160;&#160;PORTB</td>
+          <td class="memname">#define PWM_PORT&#160;&#160;&#160;<a class="el" href="group___p_o_r_t___peripheral___access___layer.html#ga09a0c85cd3da09d9cdf63a5ac4c39f77">PORTB</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

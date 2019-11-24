@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nbytes_8905',['NBYTES',['../struct_d_m_a___type.html#af2fd6a3cdc1a7a35c19e1377bd35a825',1,'DMA_Type']]]
+  ['nbytes_8907',['NBYTES',['../struct_d_m_a___type.html#af2fd6a3cdc1a7a35c19e1377bd35a825',1,'DMA_Type']]]
 ];
