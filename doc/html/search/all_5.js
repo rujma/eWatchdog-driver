@@ -130,13 +130,12 @@ var searchData=
   ['ewd_5fenable_2499',['EWD_Enable',['../group___external___watchdog.html#ga27aa36ab03ad8223840e3339df9ab7ef',1,'EWD_Enable(void):&#160;ewdog_driver.c'],['../group___external___watchdog.html#ga27aa36ab03ad8223840e3339df9ab7ef',1,'EWD_Enable(void):&#160;ewdog_driver.c']]],
   ['ewd_5fenabled_2500',['EWD_ENABLED',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a45405201efeb18a0a7b863eba5745ccb',1,'ewdog_driver.h']]],
   ['ewd_5fis_5fenabled_2501',['EWD_Is_Enabled',['../group___external___watchdog.html#gafa9460ee1c191d9dbfb0539f06d3b425',1,'EWD_Is_Enabled(void):&#160;ewdog_driver.c'],['../group___external___watchdog.html#gafa9460ee1c191d9dbfb0539f06d3b425',1,'EWD_Is_Enabled(void):&#160;ewdog_driver.c']]],
-  ['ewd_5fstart_2502',['EWD_Start',['../group___external___watchdog.html#gaa25a59a93e27eeefcb20d0a668121ba3',1,'EWD_Start(void):&#160;ewdog_driver.c'],['../group___external___watchdog.html#gaa25a59a93e27eeefcb20d0a668121ba3',1,'EWD_Start(void):&#160;ewdog_driver.c']]],
+  ['ewd_5fkick_2502',['EWD_Kick',['../group___external___watchdog.html#gac2070baf5a73017d67e1b497b10291ba',1,'EWD_Kick(void):&#160;ewdog_driver.c'],['../group___external___watchdog.html#gac2070baf5a73017d67e1b497b10291ba',1,'EWD_Kick(void):&#160;ewdog_driver.c']]],
   ['ewd_5fstatus_5ferror_2503',['EWD_STATUS_ERROR',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a1ee5a3c42a23c2752b504de0fd32ecb3',1,'ewdog_driver.h']]],
   ['ewd_5fstatus_5fsuccess_2504',['EWD_STATUS_SUCCESS',['../group___external___watchdog.html#gga08e2b23105ddb87e4ce7795e0f19b325a08a72294c7f81ebc469875565e05eb5b',1,'ewdog_driver.h']]],
   ['ewd_5fstatus_5ft_2505',['ewd_status_t',['../group___external___watchdog.html#ga08e2b23105ddb87e4ce7795e0f19b325',1,'ewdog_driver.h']]],
-  ['ewd_5fstop_2506',['EWD_Stop',['../group___external___watchdog.html#gaf641f4894e4a82eb05b11ccf46760e33',1,'EWD_Stop(void):&#160;ewdog_driver.c'],['../group___external___watchdog.html#gaf641f4894e4a82eb05b11ccf46760e33',1,'EWD_Stop(void):&#160;ewdog_driver.c']]],
-  ['ewdog_5fdriver_2ec_2507',['ewdog_driver.c',['../ewdog__driver_8c.html',1,'']]],
-  ['ewdog_5fdriver_2eh_2508',['ewdog_driver.h',['../ewdog__driver_8h.html',1,'']]],
-  ['external_20watchdog_20peripheral_20access_20layer_2509',['External Watchdog Peripheral Access Layer',['../group___external___watchdog.html',1,'']]],
-  ['exttrig_2510',['EXTTRIG',['../struct_f_t_m___type.html#ae705852108790f7c8c005b3b9d944b41',1,'FTM_Type']]]
+  ['ewdog_5fdriver_2ec_2506',['ewdog_driver.c',['../ewdog__driver_8c.html',1,'']]],
+  ['ewdog_5fdriver_2eh_2507',['ewdog_driver.h',['../ewdog__driver_8h.html',1,'']]],
+  ['external_20watchdog_20peripheral_20access_20layer_2508',['External Watchdog Peripheral Access Layer',['../group___external___watchdog.html',1,'']]],
+  ['exttrig_2509',['EXTTRIG',['../struct_f_t_m___type.html#ae705852108790f7c8c005b3b9d944b41',1,'FTM_Type']]]
 ];
