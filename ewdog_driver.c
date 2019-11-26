@@ -17,6 +17,9 @@
 void EWD_Config(void)
 {
     /* CHECK S32K116EVB - FLEXTIMER MODULE AND S32K1XX COOKBOOK FOR CONFIGURATIONS */
+    /* Set clock for PORT */
+    PCC->PCCn[PCC_PORTC_INDEX] |= PCC_PCCn_CGC_MASK;
+    PCC->PCCn[PCC_PORTB_INDEX] |= PCC_PCCn_CGC_MASK;
     /* Configure enable pin */
     uint32_t reg, directions;
     reg = ENABLE_PORT->PCR[ENABLE_PIN];
